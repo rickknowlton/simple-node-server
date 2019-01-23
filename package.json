@@ -1,0 +1,33 @@
+{
+  "name": "simple-node-server",
+  "version": "1.0.0",
+  "description": "Simple Node Express server boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickknowlton/simple-node-server.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Rick Knowlton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickknowlton/simple-node-server/issues"
+  },
+  "homepage": "https://github.com/rickknowlton/simple-node-server#readme",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "serve-static": "^1.13.2",
+    "url": "^0.11.0"
+  }
+}
